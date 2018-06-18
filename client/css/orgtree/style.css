@@ -1,0 +1,30 @@
+#wrapper {
+  width: 860px;
+  margin: 0 auto;
+  font-family:  "MicrosoftYaHei","Arial";
+}
+
+#wrapper li {
+  margin-top: 20px;
+}
+
+#wrapper a {
+  font-size: 24px;
+}
+
+#wrapper span {
+  font-size: 24px;
+}
+
+.chart-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  overflow: auto;
+  text-align: center;
+  font-family: "MicrosoftYaHei","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
