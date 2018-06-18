@@ -20,12 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="content">
-          <Spinner />
-          <Alert2 />
-          <AlertDialog {...appStore.alertDialog.toJS()} />
-          <AlertFixed />
           {this.props.children}
-          <MessageModel />
       </div>
     );
   }

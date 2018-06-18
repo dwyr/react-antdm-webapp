@@ -10,8 +10,7 @@ import PersonChar from './containers/PersonChar';
 ReactDom.render(
     <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
       <Route path="/" component={App}>
-        <IndexRoute path="/index" component={ PersonChar } />
-
+        <IndexRoute component={ PersonChar } />
       </Route>
     </Router>,
     document.getElementById('root')
