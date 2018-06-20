@@ -1,6 +1,8 @@
 import React from 'react';
 import {observer} from 'mobx-react';
 import {Carousel, WingBlank, TabBar, NavBar, Icon, Tabs, WhiteSpace, Badge} from 'antd-mobile';
+import {Button, Switch} from 'bee-mobile';
+import 'bee-mobile/bee-mobile.min.css'
 
 class CarouselAdd extends React.Component {
   state = {
@@ -247,6 +249,16 @@ class PersonChar extends React.Component {
                 rightContent={[<Icon key="1" type="ellipsis" />]}>首页</NavBar>
         <CarouselAdd />
         <TabExample />
+        <Button theme="primary">
+           <Icon icon="keyboard_arrow_up"/>
+        </Button>
+
+        <Switch>
+          Off
+        </Switch>
+        <Switch defaultChecked={true}>
+          On
+        </Switch>
         <TabBarExample />
       </div>
     )

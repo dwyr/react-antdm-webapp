@@ -8,6 +8,7 @@
     "dev": "webpack --config webpack.develop.config.js"
   },
   "dependencies": {
+    "bee-mobile": "^0.2.1",
     "bluebird": "^3.5.0",
     "body-parser": "~1.17.1",
     "classnames": "^2.2.5",
