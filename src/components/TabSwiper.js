@@ -42,9 +42,9 @@ class TabSwiper extends React.Component {
 
   render() {
     return (
-      <WingBlank>
+      <WingBlank style={{'marginLeft':'0','marginRight':'0'}}>
         <Carousel
-          autoplay={false}
+          autoplay={true}
           infinite
           beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
           afterChange={index => console.log('slide to', index)}
