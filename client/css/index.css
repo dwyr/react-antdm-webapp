@@ -1,5 +1,4 @@
 @import 'fonts/iconfont.css';
-@import 'datepicker/react-datepicker.css';
 html {
   font-size: 62.5%;
 }
@@ -668,4 +667,12 @@ select:focus,
 }
 #tab-bar .demo-preview-item .am-tab-bar {
   background-color: white;
+}
+.am-search {
+  border-bottom: 1px solid #ddd;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
 }
