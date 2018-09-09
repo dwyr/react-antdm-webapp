@@ -76,7 +76,7 @@ module.exports = {
         loader: 'svg-sprite-loader',
         include: [
           require.resolve('antd-mobile').replace(/warn\.js$/, ''),  // antd-mobile使用的svg目录
-          path.resolve(__dirname, 'client/images'),  // 个人的svg文件目录，如果自己有svg需要在这里配置
+          path.resolve(__dirname, 'public/images'),  // 个人的svg文件目录，如果自己有svg需要在这里配置
         ]
       },
     ]
