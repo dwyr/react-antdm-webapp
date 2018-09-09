@@ -18,7 +18,7 @@ module.exports = {
         ]
     },
     output: {
-        path: path.join(__dirname, 'publish/js'),
+        path: path.join(__dirname, 'public/js'),
         filename: '[name].js'
     },
     module: {
@@ -63,7 +63,7 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({
-            template: 'publish/index.hbs',
+            template: 'public/index.hbs',
             hash: true,
             version: packageJSON.version,
             revision: GIT_REVISION,
