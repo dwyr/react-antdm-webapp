@@ -13,9 +13,9 @@ module.exports = {
     ]
   },
   output: {
-    path: path.join(__dirname, 'client/js'),
+    path: path.join(__dirname, 'publish/js'),
     filename: '[name].js',
-    publicPath: '/client/js',
+    publicPath: '/publish/js',
     chunkFilename: '[name].js'
   },
   plugins: [

@@ -21,7 +21,7 @@ npm run publish
 <pre>
 ROOT
 |-- src
-|   |-- client
+|   |-- publish
 |   |-- common
 |   |   |-- components
 |   |   |-- containers

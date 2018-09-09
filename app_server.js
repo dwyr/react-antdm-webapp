@@ -40,10 +40,10 @@ app.use(webpackDevMiddleware(compiler, {
   }
 }));
 app.use(webpackHotMiddleware(compiler));
-app.use('/', express.static(__dirname + '/client/'));
+app.use('/', express.static(__dirname + '/publish/'));
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + '/client/dev.html');
+  res.sendFile(__dirname + '/publish/dev.html');
 });
 
 app.listen(port, ip, function (error) {
