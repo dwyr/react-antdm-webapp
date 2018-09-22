@@ -10,8 +10,6 @@ import Search from '../containers/search/Search';
 import News from '../containers/news/News';
 import My from '../containers/my/My';
 
-//import {Swiper,Button, Switch, Icon, ButtonNavigation, ButtonNavigationItem,Page, Content} from 'bee-mobile';
-
 
 @observer
 class TabBarDone extends React.Component {

@@ -62,12 +62,10 @@ class Search extends React.Component {
           showCancelButton
           onChange={this.onChange}
         />
-
-
-
       </div>
     )
   }
 }
+
 
 export default Search;

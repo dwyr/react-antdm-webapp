@@ -31,12 +31,12 @@ module.exports = {
         'NODE_ENV': JSON.stringify('development')
       }
     }),
-    new OpenBrowserPlugin({url: 'http://127.0.0.1:5001'}),      // Webpack编译完成时自动打开新的浏览器窗口
+    new OpenBrowserPlugin({url: 'http://127.0.0.1:5001'}),
     new webpack.LoaderOptionsPlugin({
       options: {
         context: __dirname,
         postcss: [
-          autoprefixer({browsers: ['last 2 versions']})                   // 自动补全css3前缀  浏览器版本
+          autoprefixer({browsers: ['last 2 versions']})
         ]
       }
     })

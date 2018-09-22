@@ -49,8 +49,7 @@ jspm_packages
 .*.swp
 dist
 webpack.ztc.config.js
-app_ztc.js
-
+app_ztc.jsß
 .happypack
-
 public/js/
+tatus
